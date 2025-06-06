@@ -27,9 +27,9 @@ This project uses **data cleaning** and **linear regression** techniques in pyth
 - Normalize/scale numerical features
 
 ### 2. **Exploratory Data Analysis**
-- Visualized the distribution of sale prices
+- Below is the visualization of the distribution of sale prices of houses in Ames. This analysis could be interesting for an economist who is interested in estimating the average cost of houses in Ames, for example. It is probably appropriate that I remind you that this data was collected some time around 2011. The average house price in Ames has likely tripled since then (at the time I am writing this).
   ![Price Distribution](images/salepricedist.png)
-- Visualized feature relationships (e.g., `GrLivArea` vs. `SalePrice`)
+- Below is the visualization of the relationship between general living area and sale price, another interesting analysis for anyone buying a house or researching the state of the real estate market in Ames.
   ![General Living Area vs Sale Price](images/grlivar_vs_saleprice.png)
 - Removed outliers if needed
 
