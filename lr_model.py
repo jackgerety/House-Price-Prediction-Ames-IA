@@ -47,15 +47,10 @@ print("RMSE:", root_mean_squared_error(y_test, y_pred))
 
 #Plot Actual vs Predicted Prices
 plt.scatter(y_test, y_pred, label="Predictions")
-# Plot the y = x line
 min_val = min(min(y_test), min(y_pred))
 max_val = max(max(y_test), max(y_pred))
 plt.plot([min_val, max_val], [min_val, max_val], color='red', linestyle='--', label="Ideal: Actual = Predicted")
-
 plt.xlabel("Actual Prices")
 plt.ylabel("Predicted Prices")
 plt.title("Actual vs Predicted Prices")
 plt.show()
-
-
-
