@@ -19,7 +19,7 @@ This project uses **data cleaning** and **linear regression** techniques in pyth
 
 ---
 
-## 🧪 Features & Workflow
+## 🧪 Workflow
 
 ### 1. **Data Preprocessing**
 - Handle missing values
@@ -28,9 +28,9 @@ This project uses **data cleaning** and **linear regression** techniques in pyth
 
 ### 2. **Exploratory Data Analysis**
 - Visualized the distribution of sale prices
-  
+  ![Price Distribution](images/salepricedist.png)
 - Visualized feature relationships (e.g., `GrLivArea` vs. `SalePrice`)
-  
+  ![General Living Area vs Sale Price](images/grlivar_vs_saleprice.png)
 - Removed outliers if needed
 
 ### 3. **Modeling**
@@ -41,7 +41,7 @@ This project uses **data cleaning** and **linear regression** techniques in pyth
   - **R² score**
   - **Root Mean Squared Error (RMSE)**
 - Plot **predicted vs. actual prices**
-
+![Evaluation](images/eval.png)
 
 
 ## 🚀 Getting Started
