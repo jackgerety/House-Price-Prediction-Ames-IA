@@ -48,5 +48,5 @@ This project uses **data cleaning** and **linear regression** techniques in pyth
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/yourusername/ames-housing-regression.git
-cd ames-housing-regression
+git clone https://github.com/jackgerety/House-Price-Prediction-Ames-IA.git
+cd House-Price-Prediction-Ames-IA
