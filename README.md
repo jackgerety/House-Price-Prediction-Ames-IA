@@ -44,7 +44,7 @@ This project uses **data cleaning** and **linear regression** techniques in pyth
 ![Evaluation](images/eval1.png)
 
 ## 📊 Results Explained
-- An **R²** score of 0.9 is pretty good. **R²** is another term for the measure of correlation (R) between two variables squared. It's a scalable way to measure how closely the predicted and actual sale prices correlate. By scalable, I mean that a score of 0.4 is twice as good of a correlation as a score of 0.2. A score of 1.0 shows exact correlation, either negative or positive. Since there are no negative house prices, there is no negative correlation between actual and predicted. A score of 0.0 means that there is no correlation. 
+- An **R²** score of 0.9 is pretty good. **R²** is another term for the measure of correlation (R) between two variables squared. It's a scalable way to measure how closely the predicted and actual sale prices correlate. By scalable, I mean that a score of 0.4 is twice as good of a correlation as a score of 0.2. A score of 1.0 shows exact correlation, either negative or positive. Since there are no negative house prices, there is no negative correlation between actual and predicted. Hence we use R² to measure correlation rather than R. A score of 0.0 means that there is no correlation. 
 - Another measure of how well the actual data points agree with the model's predictions is the **Root Mean Squared Error (RMSE)**. Essentially what this measures is the residual standard deviation of the data points from the predictions. On the scatter plot above, this calculation is visualized with the two dotted lines parallel to the ideal line which show the average amount that the y values disagree with said ideal line.
 
 ## 🚀 Getting Started
